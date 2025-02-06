@@ -3,7 +3,7 @@
 	<Results>
 		<Result ref="dd397" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-23T05:20:22.679Z">
 			<Variables>
-				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="sum" label="New / Resolved Cases (Past 30 Minutes) (1)" ref="bi399" varname="bi399" column="c0"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="sum" label="New / Resolved Cases (Past 30 Minutes)" ref="bi399" varname="bi399" column="c0"/>
 			</Variables>
 			<Columns>
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
@@ -16,7 +16,7 @@
 		</Result>
 		<Result ref="dd388" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-23T05:20:22.679Z">
 			<Variables>
-				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="sum" label="New / Resolved Critical Cases (Past 30 Minutes) (1)" ref="bi390" varname="bi390" column="c0"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="sum" label="New / Resolved Critical Cases (Past 30 Minutes)" ref="bi390" varname="bi390" column="c0"/>
 			</Variables>
 			<Columns>
 				<NumericColumn dataType="double" colname="c0" encoding="text"/>
