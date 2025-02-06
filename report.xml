@@ -4919,12 +4919,22 @@
 		</VisualContainer>
 		<Image scaleType="scaleToFit" file="ve5565.png" name="ve5565" label="Image 5" selectionDisabled="true"/>
 		<Text name="ve5567" label="Text 5" selectionDisabled="true" applyDynamicBrushes="no">
-			<P format="h2"><Span class="span1">AI Generated Summary:</Span></P>
+			<P format="h2"><Span class="span1"><Span class="span2">AI Generated Summary:</Span></Span></P>
 			<P></P>
-			<P><Span>As of now, </Span><Span class="span2">3</Span><Span> critical flood alerts have been reported across </Span><Span class="span3">Madinat Al Riyad</Span><Span>. High-severity alerts are concentrated in </Span><Span class="span4">Dhaharat Al Teeb, Al Faya North,</Span><Span> and </Span><Span class="span5">Al Haffar</Span><Span>, posing significant risks to individuals and critical infrastructure. Recent rainfall and water levels have surpassed </Span><Span class="span6">18%</Span><Span> of average levels, increasing the probability of flash floods in nearby areas. The total estimated economic impact currently stands at </Span><Span class="span7">28.5 million SAR</Span><Span>, with ongoing assessments expected to refine this figure further.</Span></P>
+			<P><Span class="span3"><Span class="span4">- Number of Critical Flood Alerts</Span><Span>: 3 alerts have been reported across Madinat Al Riyad.</Span></Span></P>
 			<P></P>
-			<P><Span>Emergency response teams are currently deployed at </Span><Span class="span8">12</Span><Span> locations, with an overall readiness status of </Span><Span class="span9">87%</Span><Span>. Resources are being prioritized for highly vulnerable areas, including </Span><Span class="span10">Al Najm, Al Ayun,</Span><Span> and </Span><Span class="span11">Qaryat Al Wasl</Span><Span>, based on generative AI&apos;s continuous analysis of historical data, weather forecasts, and real-time sensor updates.</Span></P>
+			<P><Span class="span5"><Span class="span6">- High-Severity Alert Locations</Span><Span>: Dhaharat Al Teeb, Al Faya North, and Al Haffar (significant risks to individuals and critical infrastructure).</Span></Span></P>
+			<P></P>
+			<P><Span class="span7"><Span class="span8">- Rainfall and Water Levels</Span><Span>: Surpassed 18% of average levels, increasing the probability of flash floods in nearby areas.</Span></Span></P>
+			<P></P>
+			<P><Span class="span9"><Span class="span10">- Economic Impact</Span><Span>: Estimated at 1.5 million AED, with ongoing assessments expected to update this figure.</Span></Span></P>
+			<P></P>
+			<P><Span class="span11"><Span class="span12">- Emergency Response Deployment</Span><Span>: Teams are active at 12 locations, maintaining an 87% overall readiness status.</Span></Span></P>
+			<P></P>
+			<P><Span class="span13"><Span class="span14">- Resource Prioritization</Span><Span>: Focus on highly vulnerable areas such as Al Najm, Al Ayun, and Qaryat Al Wasl.</Span></Span></P>
+			<P></P>
 		</Text>
+
 		<WebContent url="https://raedaldweik.github.io/DMT_Chatbot/index.html" name="ve5572" label="Web content 2" selectionDisabled="true"/>
 		<Text name="ve5576" label="Text 3 (1)" selectionDisabled="true" applyDynamicBrushes="no">
 			<P><Span class="span1"><Span class="span2">AI - Powered Forecasting</Span></Span></P>
@@ -4942,7 +4952,7 @@
 			<P><Span class="span1"><Span class="span2">Historical Data</Span></Span></P>
 		</Text>
 		<Text name="ve5606" label="Text 3 (1) (1) (1) (1) (1) (1) (1)" selectionDisabled="true" applyDynamicBrushes="no">
-			<P><Span class="span1"><Span class="span2">Generative AI Assistant</Span></Span></P>
+			<P><Span class="span1"><Span class="span2">AI Flood Expert</Span></Span></P>
 		</Text>
 		<Graph graphType="gauge" supplementalVisuals="ve6336" resultDefinitions="dd6334" name="ve4866" data="dd6332" label="Gauge - Drainage Capacity Index 1" applyDynamicBrushes="yes">
 			<EditorProperties>
@@ -6167,248 +6177,7 @@
 				</MediaContainer>
 			</Body>
 		</Section>
-		<Section name="vi2526" label="Rain Analytics">
-			<Header>
-				<MediaContainer target="mt2">
-					<ResponsiveLayout orientation="horizontal" overflow="fit">
-						<Weights mediaTarget="mt5" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-						<Weights mediaTarget="mt4" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-						<Weights mediaTarget="mt3" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-					</ResponsiveLayout>
-				</MediaContainer>
-			</Header>
-			<Body>
-				<MediaContainer target="mt2">
-					<ResponsiveLayout orientation="vertical" overflow="fit">
-						<Weights mediaTarget="mt5" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-						<Weights mediaTarget="mt4" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-						<Weights mediaTarget="mt3" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-					</ResponsiveLayout>
-					<Container ref="ve2524" name="vi2525">
-						<ResponsiveConstraint>
-							<WidthConstraint>
-								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
-							</WidthConstraint>
-							<HeightConstraint>
-								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
-							</HeightConstraint>
-						</ResponsiveConstraint>
-						<ResponsiveLayout orientation="vertical" overflow="fit">
-							<Weights mediaTarget="mt5" unit="percent">
-								<Weight value="100%"/>
-							</Weights>
-							<Weights mediaTarget="mt4" unit="percent">
-								<Weight value="100%"/>
-							</Weights>
-							<Weights mediaTarget="mt3" unit="percent">
-								<Weight value="100%"/>
-							</Weights>
-						</ResponsiveLayout>
-						<Visual ref="ve2458" name="vi2459">
-							<ResponsiveConstraint zIndex="1">
-								<WidthConstraint>
-									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
-								</WidthConstraint>
-								<HeightConstraint>
-									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
-								</HeightConstraint>
-								<VerticalConstraint anchor="vi2525" offset="0%"/>
-								<HorizontalConstraint anchor="vi2525" offset="0%"/>
-							</ResponsiveConstraint>
-						</Visual>
-						<Container ref="ve2522" name="vi2523">
-							<ResponsiveConstraint zIndex="2">
-								<WidthConstraint>
-									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="95%" flexibility="shrinkable"/>
-								</WidthConstraint>
-								<HeightConstraint>
-									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="90%" flexibility="shrinkable"/>
-								</HeightConstraint>
-								<VerticalConstraint anchor="vi2525" offset="13%"/>
-								<HorizontalConstraint anchor="vi2525" offset="3%"/>
-							</ResponsiveConstraint>
-							<ResponsiveLayout orientation="vertical" overflow="fit">
-								<Weights mediaTarget="mt5" unit="percent">
-									<Weight value="100%"/>
-								</Weights>
-								<Weights mediaTarget="mt4" unit="percent">
-									<Weight value="100%"/>
-								</Weights>
-								<Weights mediaTarget="mt3" unit="percent">
-									<Weight value="100%"/>
-								</Weights>
-							</ResponsiveLayout>
-							<Container ref="ve2520" name="vi2521">
-								<ResponsiveConstraint zIndex="1">
-									<WidthConstraint>
-										<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
-									</WidthConstraint>
-									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
-									</HeightConstraint>
-									<VerticalConstraint anchor="vi2523" offset="0%"/>
-									<HorizontalConstraint anchor="vi2523" offset="0%"/>
-								</ResponsiveConstraint>
-								<ResponsiveLayout orientation="vertical" overflow="fit">
-									<Weights mediaTarget="mt5" unit="percent">
-										<Weight value="100%"/>
-									</Weights>
-									<Weights mediaTarget="mt4" unit="percent">
-										<Weight value="100%"/>
-									</Weights>
-									<Weights mediaTarget="mt3" unit="percent">
-										<Weight value="100%"/>
-									</Weights>
-								</ResponsiveLayout>
-								<Container ref="ve2531" name="vi2530">
-									<ResponsiveConstraint zIndex="1">
-										<WidthConstraint>
-											<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
-										</WidthConstraint>
-										<HeightConstraint>
-											<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
-										</HeightConstraint>
-										<VerticalConstraint anchor="vi2521" offset="0%"/>
-										<HorizontalConstraint anchor="vi2521" offset="0%"/>
-									</ResponsiveConstraint>
-									<ResponsiveLayout orientation="vertical" overflow="fit">
-										<Weights mediaTarget="mt5" unit="percent">
-											<Weight value="100%"/>
-										</Weights>
-										<Weights mediaTarget="mt4" unit="percent">
-											<Weight value="100%"/>
-										</Weights>
-										<Weights mediaTarget="mt3" unit="percent">
-											<Weight value="100%"/>
-										</Weights>
-									</ResponsiveLayout>
-									<Visual ref="ve635" name="vi634">
-										<ResponsiveConstraint zIndex="1">
-											<WidthConstraint>
-												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="75%" flexibility="flexible"/>
-											</WidthConstraint>
-											<HeightConstraint>
-												<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="75%" flexibility="flexible"/>
-											</HeightConstraint>
-											<VerticalConstraint anchor="vi2530" offset="10%"/>
-											<HorizontalConstraint anchor="vi2530" offset="0%"/>
-										</ResponsiveConstraint>
-									</Visual>
-									<Visual ref="ve2539" name="vi2538">
-										<ResponsiveConstraint zIndex="2">
-											<WidthConstraint>
-												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="flexible"/>
-											</WidthConstraint>
-											<HeightConstraint>
-												<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
-											</HeightConstraint>
-											<VerticalConstraint anchor="vi2530" offset="0%"/>
-											<HorizontalConstraint anchor="vi2530" offset="0%"/>
-										</ResponsiveConstraint>
-									</Visual>
-									<Visual ref="ve2545" name="vi2544">
-										<ResponsiveConstraint zIndex="3">
-											<WidthConstraint>
-												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="flexible"/>
-											</WidthConstraint>
-											<HeightConstraint>
-												<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
-											</HeightConstraint>
-											<VerticalConstraint anchor="vi2530" offset="0%"/>
-											<HorizontalConstraint anchor="vi2530" offset="22%"/>
-										</ResponsiveConstraint>
-									</Visual>
-									<Visual ref="ve2557" name="vi2558">
-										<ResponsiveConstraint zIndex="4">
-											<WidthConstraint>
-												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="23.94%" flexibility="flexible"/>
-											</WidthConstraint>
-											<HeightConstraint>
-												<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
-											</HeightConstraint>
-											<VerticalConstraint anchor="vi2530" offset="15%"/>
-											<HorizontalConstraint anchor="vi2530" offset="75%"/>
-										</ResponsiveConstraint>
-									</Visual>
-									<Visual ref="ve2560" name="vi2559">
-										<ResponsiveConstraint zIndex="5">
-											<WidthConstraint>
-												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20.1%" flexibility="flexible"/>
-											</WidthConstraint>
-											<HeightConstraint>
-												<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="30.32%" flexibility="flexible"/>
-											</HeightConstraint>
-											<VerticalConstraint anchor="vi2530" offset="30%"/>
-											<HorizontalConstraint anchor="vi2530" offset="75.45%"/>
-										</ResponsiveConstraint>
-									</Visual>
-									<Visual ref="ve2576" name="vi2577">
-										<ResponsiveConstraint zIndex="6">
-											<WidthConstraint>
-												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20.1%" flexibility="flexible"/>
-											</WidthConstraint>
-											<HeightConstraint>
-												<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="30.32%" flexibility="flexible"/>
-											</HeightConstraint>
-											<VerticalConstraint anchor="vi2530" offset="58%"/>
-											<HorizontalConstraint anchor="vi2530" offset="75.54%"/>
-										</ResponsiveConstraint>
-									</Visual>
-									<Visual ref="ve4781" name="vi4780">
-										<ResponsiveConstraint zIndex="7">
-											<WidthConstraint>
-												<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="30%" flexibility="shrinkable"/>
-											</WidthConstraint>
-											<HeightConstraint>
-												<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="10%" flexibility="shrinkable"/>
-											</HeightConstraint>
-											<VerticalConstraint anchor="vi2530" offset="85%"/>
-											<HorizontalConstraint anchor="vi2530" offset="1%"/>
-										</ResponsiveConstraint>
-									</Visual>
-								</Container>
-							</Container>
-						</Container>
-						<Visual ref="ve4800" name="vi4799">
-							<ResponsiveConstraint zIndex="3">
-								<WidthConstraint>
-									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="15%" flexibility="shrinkable"/>
-								</WidthConstraint>
-								<HeightConstraint>
-									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="10%" flexibility="shrinkable"/>
-								</HeightConstraint>
-								<VerticalConstraint anchor="vi2525" offset="3%"/>
-								<HorizontalConstraint anchor="vi2525" offset="3%"/>
-							</ResponsiveConstraint>
-						</Visual>
-						<Visual ref="ve5586" name="vi5587">
-							<ResponsiveConstraint zIndex="4">
-								<WidthConstraint>
-									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="25.12%" flexibility="flexible"/>
-								</WidthConstraint>
-								<HeightConstraint>
-									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="14%" flexibility="fixed"/>
-								</HeightConstraint>
-								<VerticalConstraint anchor="vi2525" offset="0%"/>
-								<HorizontalConstraint anchor="vi2525" offset="40%"/>
-							</ResponsiveConstraint>
-						</Visual>
-					</Container>
-				</MediaContainer>
-			</Body>
-		</Section>
+		
 		<Section name="vi1306" label="Alerts Overview">
 			<Header>
 				<MediaContainer target="mt2">
@@ -7210,7 +6979,7 @@
 				</MediaContainer>
 			</Body>
 		</Section>
-		<Section name="vi1218" label="Generative AI">
+		<Section name="vi1218" label="AI Flood Expert">
 			<Header>
 				<MediaContainer target="mt2">
 					<ResponsiveLayout orientation="horizontal" overflow="fit">
@@ -7340,6 +7109,248 @@
 								</HeightConstraint>
 								<VerticalConstraint anchor="vi1217" offset="0%"/>
 								<HorizontalConstraint anchor="vi1217" offset="35%"/>
+							</ResponsiveConstraint>
+						</Visual>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+<Section name="vi2526" label="Rain Analytics">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve2524" name="vi2525">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="fit">
+							<Weights mediaTarget="mt5" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt4" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt3" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+						</ResponsiveLayout>
+						<Visual ref="ve2458" name="vi2459">
+							<ResponsiveConstraint zIndex="1">
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+								</HeightConstraint>
+								<VerticalConstraint anchor="vi2525" offset="0%"/>
+								<HorizontalConstraint anchor="vi2525" offset="0%"/>
+							</ResponsiveConstraint>
+						</Visual>
+						<Container ref="ve2522" name="vi2523">
+							<ResponsiveConstraint zIndex="2">
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="95%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="90%" flexibility="shrinkable"/>
+								</HeightConstraint>
+								<VerticalConstraint anchor="vi2525" offset="13%"/>
+								<HorizontalConstraint anchor="vi2525" offset="3%"/>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="fit">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Container ref="ve2520" name="vi2521">
+								<ResponsiveConstraint zIndex="1">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi2523" offset="0%"/>
+									<HorizontalConstraint anchor="vi2523" offset="0%"/>
+								</ResponsiveConstraint>
+								<ResponsiveLayout orientation="vertical" overflow="fit">
+									<Weights mediaTarget="mt5" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt4" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt3" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+								</ResponsiveLayout>
+								<Container ref="ve2531" name="vi2530">
+									<ResponsiveConstraint zIndex="1">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi2521" offset="0%"/>
+										<HorizontalConstraint anchor="vi2521" offset="0%"/>
+									</ResponsiveConstraint>
+									<ResponsiveLayout orientation="vertical" overflow="fit">
+										<Weights mediaTarget="mt5" unit="percent">
+											<Weight value="100%"/>
+										</Weights>
+										<Weights mediaTarget="mt4" unit="percent">
+											<Weight value="100%"/>
+										</Weights>
+										<Weights mediaTarget="mt3" unit="percent">
+											<Weight value="100%"/>
+										</Weights>
+									</ResponsiveLayout>
+									<Visual ref="ve635" name="vi634">
+										<ResponsiveConstraint zIndex="1">
+											<WidthConstraint>
+												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="75%" flexibility="flexible"/>
+											</WidthConstraint>
+											<HeightConstraint>
+												<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="75%" flexibility="flexible"/>
+											</HeightConstraint>
+											<VerticalConstraint anchor="vi2530" offset="10%"/>
+											<HorizontalConstraint anchor="vi2530" offset="0%"/>
+										</ResponsiveConstraint>
+									</Visual>
+									<Visual ref="ve2539" name="vi2538">
+										<ResponsiveConstraint zIndex="2">
+											<WidthConstraint>
+												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="flexible"/>
+											</WidthConstraint>
+											<HeightConstraint>
+												<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+											</HeightConstraint>
+											<VerticalConstraint anchor="vi2530" offset="0%"/>
+											<HorizontalConstraint anchor="vi2530" offset="0%"/>
+										</ResponsiveConstraint>
+									</Visual>
+									<Visual ref="ve2545" name="vi2544">
+										<ResponsiveConstraint zIndex="3">
+											<WidthConstraint>
+												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="flexible"/>
+											</WidthConstraint>
+											<HeightConstraint>
+												<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+											</HeightConstraint>
+											<VerticalConstraint anchor="vi2530" offset="0%"/>
+											<HorizontalConstraint anchor="vi2530" offset="22%"/>
+										</ResponsiveConstraint>
+									</Visual>
+									<Visual ref="ve2557" name="vi2558">
+										<ResponsiveConstraint zIndex="4">
+											<WidthConstraint>
+												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="23.94%" flexibility="flexible"/>
+											</WidthConstraint>
+											<HeightConstraint>
+												<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+											</HeightConstraint>
+											<VerticalConstraint anchor="vi2530" offset="15%"/>
+											<HorizontalConstraint anchor="vi2530" offset="75%"/>
+										</ResponsiveConstraint>
+									</Visual>
+									<Visual ref="ve2560" name="vi2559">
+										<ResponsiveConstraint zIndex="5">
+											<WidthConstraint>
+												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20.1%" flexibility="flexible"/>
+											</WidthConstraint>
+											<HeightConstraint>
+												<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="30.32%" flexibility="flexible"/>
+											</HeightConstraint>
+											<VerticalConstraint anchor="vi2530" offset="30%"/>
+											<HorizontalConstraint anchor="vi2530" offset="75.45%"/>
+										</ResponsiveConstraint>
+									</Visual>
+									<Visual ref="ve2576" name="vi2577">
+										<ResponsiveConstraint zIndex="6">
+											<WidthConstraint>
+												<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20.1%" flexibility="flexible"/>
+											</WidthConstraint>
+											<HeightConstraint>
+												<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="30.32%" flexibility="flexible"/>
+											</HeightConstraint>
+											<VerticalConstraint anchor="vi2530" offset="58%"/>
+											<HorizontalConstraint anchor="vi2530" offset="75.54%"/>
+										</ResponsiveConstraint>
+									</Visual>
+									<Visual ref="ve4781" name="vi4780">
+										<ResponsiveConstraint zIndex="7">
+											<WidthConstraint>
+												<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="30%" flexibility="shrinkable"/>
+											</WidthConstraint>
+											<HeightConstraint>
+												<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="10%" flexibility="shrinkable"/>
+											</HeightConstraint>
+											<VerticalConstraint anchor="vi2530" offset="85%"/>
+											<HorizontalConstraint anchor="vi2530" offset="1%"/>
+										</ResponsiveConstraint>
+									</Visual>
+								</Container>
+							</Container>
+						</Container>
+						<Visual ref="ve4800" name="vi4799">
+							<ResponsiveConstraint zIndex="3">
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="15%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="10%" flexibility="shrinkable"/>
+								</HeightConstraint>
+								<VerticalConstraint anchor="vi2525" offset="3%"/>
+								<HorizontalConstraint anchor="vi2525" offset="3%"/>
+							</ResponsiveConstraint>
+						</Visual>
+						<Visual ref="ve5586" name="vi5587">
+							<ResponsiveConstraint zIndex="4">
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="25.12%" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="14%" flexibility="fixed"/>
+								</HeightConstraint>
+								<VerticalConstraint anchor="vi2525" offset="0%"/>
+								<HorizontalConstraint anchor="vi2525" offset="40%"/>
 							</ResponsiveConstraint>
 						</Visual>
 					</Container>
